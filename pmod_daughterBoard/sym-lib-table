@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name pmod_daughterBoard)(type Legacy)(uri ${KIPRJMOD}/pmod_daughterBoard.lib)(options "")(descr ""))
+  (lib (name "pmod_daughterBoard")(type "Legacy")(uri "${KIPRJMOD}/pmod_daughterBoard.lib")(options "")(descr ""))
+  (lib (name "max3280")(type "KiCad")(uri "${KIPRJMOD}/MAX3280EAUK/MAX3280EAUK.kicad_sym")(options "")(descr ""))
 )
