@@ -1709,6 +1709,22 @@
     (pin "2" (uuid 0579f894-c0b0-4302-b3aa-29d850bf99fe))
   )
 
+  (symbol (lib_id "power:+3V3") (at 186.69 172.72 90) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 44b016cf-8ac1-4430-b5be-c8ecfe9e9d06)
+    (property "Reference" "#PWR?" (id 0) (at 190.5 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (id 1) (at 181.61 172.72 90))
+    (property "Footprint" "" (id 2) (at 186.69 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 186.69 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2504dbc8-2b6e-4a46-9115-95494bfd2238))
+  )
+
   (symbol (lib_id "Device:R") (at 152.4 170.18 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 454a4197-0e77-4e4e-bfb9-418d1927e6e8)
@@ -2178,6 +2194,9 @@
     )
     (path "/772ddcb4-9bf2-49b3-b964-63a77f18defd"
       (reference "#PWR0101") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/44b016cf-8ac1-4430-b5be-c8ecfe9e9d06"
+      (reference "#PWR?") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/a52bbc9b-d893-4f4a-83b5-2563eb31e455"
       (reference "C1") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
